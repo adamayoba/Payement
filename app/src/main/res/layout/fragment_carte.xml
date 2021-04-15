@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/edit_name"
+
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+
+        android:id="@+id/lbl_nom"
+        android:layout_width="200dp"
+
+        android:layout_height="50dp"
+        android:text="votre nom" />
+
+
+    <EditText
+
+        android:id="@+id/txt_nom"
+
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+
+        android:imeOptions="actionDone"
+
+        android:inputType="text" />
+    <TextView
+
+        android:id="@+id/lbl_prenom"
+        android:layout_width="200dp"
+
+        android:layout_height="50dp"
+        android:text="votre prenom" />
+
+
+    <EditText
+
+        android:id="@+id/txt_prenom"
+
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+
+        android:imeOptions="actionDone"
+
+        android:inputType="text" />
+
+    <TextView
+
+        android:id="@+id/lbl_num"
+        android:layout_width="200dp"
+
+        android:layout_height="50dp"
+        android:text="votre N° de carte" />
+
+
+    <EditText
+
+        android:id="@+id/txt_num"
+
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+
+        android:imeOptions="actionDone"
+
+        android:inputType="number" />
+    <TextView
+
+        android:id="@+id/lbl_code"
+        android:layout_width="200dp"
+
+        android:layout_height="50dp"
+        android:text="votre code cvc" />
+
+
+    <EditText
+
+        android:id="@+id/txt_code"
+
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+
+        android:imeOptions="actionDone"
+
+        android:inputType="number" />
+    <TextView
+
+        android:id="@+id/lbl_date"
+        android:layout_width="200dp"
+
+        android:layout_height="50dp"
+        android:text="date expiration" />
+
+
+    <Button
+        android:id="@+id/date"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Date expiration"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/valider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="valider" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+
+        android:orientation="vertical">
+
+      <!--  <Button
+            android:id="@+id/frag_alert_btn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Alert Diag"
+            android:layout_marginTop="5dp"
+            />
+
+        <Button
+            android:id="@+id/frag_date_btn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Date Diag" android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/frag_simple_btn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Fragment Simple"
+            android:layout_marginTop="5dp"/>
+
+
+        <Button
+            android:id="@+id/frag_progress_btn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Progress Diag"
+            android:layout_marginTop="5dp" />-->
+        <Button
+            android:id="@+id/carte"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Carte"
+            android:layout_marginTop="5dp"
+            />
+        <Button
+            android:id="@+id/paypal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Paypal"
+            android:layout_marginTop="5dp"
+            />
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/container"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
